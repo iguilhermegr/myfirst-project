@@ -1,0 +1,21 @@
+@import 'reset.css';
+
+.container {
+    width: 50%;
+    height: 70vh;
+    border: solid 0.5px purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+}
+
+.container > div {
+    width: 100px;
+    height: 100px;
+    border: solid 0.5px #333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
